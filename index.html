@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Esteticar</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/myStyle.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/carro.png" />
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .carousel {
+      height: 100%;
+    }
+    header{
+      
+    }
+
+    .img-fluid{
+      height: 165px;
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+      }
+    }
+    .typeStrong{
+      font-weight: bolder;
+    }
+
+    .img1{
+      background: url('./img/foto2.png') no-repeat center;
+      background-size: cover;
+      background-attachment: fixed;
+      }
+
+      .img2{
+      background: url('./img/foto1.png') no-repeat center;
+      background-size: cover;
+      background-attachment: fixed;
+      }
+
+      .img3{
+      background: url('./img/foto3.png') no-repeat center;
+      background-size: cover;
+      background-attachment: fixed;
+      }
+
+
+
+  </style>
+</head>
+
+<body>
+  <header class="sobrepoe">
+    <div class="fundo">
+        <div >
+  
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <div class="container">
+
+        <!-- Brand -->
+        
+          <a id="esteticar" class="navbar-brand nav-item suave typeStrong" href="#esteticar">
+            ESTETICAR
+          </a>
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item suave">
+              <a class="nav-link" href="#quemSomos" >Quem Somos</a>
+            </li>
+            <li class="nav-item suave">
+              <a class="nav-link" href="#servicos">
+                Serviços Ofertados</a>
+            </li>
+            <li class="nav-item suave">
+              <a class="nav-link" href="#orcamento">
+                Orçamento</a>
+            </li>
+            <li class="nav-item suave">
+              <a class="nav-link" href="#localizacao">
+                Localização</a>
+            </li>
+            <li class="nav-item suave">
+              <a class="nav-link" href="#contato">
+                Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html" onclick="carregaParaTodos()" target="_blank">Galeria</a>
+            </li>
+          </ul>
+
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/evandrolopesnasci" class="nav-link" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a data-toggle="modal" data-target="#modalLogin" class="nav-link border border-light rounded">
+                <i class="fas fa-user mr-2"></i>Login
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+          <div  class="view img1">
+
+            <!-- Mask & flexbox options-->
+            <div style="background-color: rgba(10, 13, 19, 0.658);"class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+              <!-- Content -->
+              <div class="text-center white-text mx-5 wow fadeIn">
+                <h1 class="mb-4">
+                  <strong>ESTETICAR</strong>
+                </h1>
+
+                <h2>
+                  <strong>Funilária e Pintura</strong>
+                </h2>
+
+                <p class="mb-4 d-none d-md-block">
+                  <strong>Entre em contato conosco e faça o seu orçamento pelo telefone: (67) 99138-2836</strong>
+                </p>
+
+                <a data-toggle="modal" data-target="#modalRegisterForm" class="btn btn-outline-white btn-lg">Clique
+                  para se cadastrar
+                  <i class="fas fa-plus ml-2"></i>
+                </a>
+              </div>
+              <!-- Content -->
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+          <div class="view img2">
+
+            <!-- Mask & flexbox options-->
+            <div style="background-color: rgba(10, 13, 19, 0.658);" class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+              <!-- Content -->
+              <div class="text-center white-text mx-5 wow fadeIn">
+
+                <a  data-toggle="modal" data-target="#modalRegisterForm" class="btn btn-outline-white btn-lg">Clique
+                  para se cadastrar
+                  <i class="fas fa-plus ml-2"></i>
+                </a>
+              </div>
+              <!-- Content -->
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+          <div class="view img3">
+
+            <!-- Mask & flexbox options-->
+            <div style="background-color: rgba(10, 13, 19, 0.658);" class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+              <!-- Content -->
+              <div class="text-center white-text mx-5 wow fadeIn">
+                
+
+                
+
+                <a data-toggle="modal" data-target="#modalRegisterForm" class="btn btn-outline-white btn-lg">Clique
+                  para se cadastrar
+                  <i class="fas fa-plus ml-2"></i>
+                </a>
+              </div>
+              <!-- Content -->
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/Third slide-->
+
+      </div>
+      <!--/.Slides-->
+    </header>
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Cadastro de Usuário</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+              <i class="fas fa-user prefix grey-text"></i>
+              <input type="text" id="inputNome" class="form-control validate">
+              <label for="inputNome">Seu nome</label>
+            </div>
+            <div class="md-form mb-5">
+              <i class="fas fa-envelope prefix grey-text"></i>
+              <input type="text" id="inputEmail" class="form-control validate">
+              <label for="inputEmail">Seu e-mail</label>
+            </div>
+            <div class="md-form mb-4">
+              <i class="fas fa-lock prefix grey-text"></i>
+              <input type="password" id="inputSenha" class="form-control validate">
+              <label for="inputSenha">Sua senha</label>
+            </div>
+
+            <div class="md-form mb-4">
+              <i class="fas fa-lock prefix grey-text"></i>
+              <input type="password" id="inputSenhaN" class="form-control validate">
+              <label for="inputSenhaN">Sua senha novamente</label>
+            </div>
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-indigo btn-cadastrar">Salvar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--LOGIN MODAL-->
+  <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h4 class="modal-title w-100 font-weight-bold">Efetuar Autenticação</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body mx-3">
+          <div class="md-form mb-5">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <input type="text" id="inputLoginEmail" class="form-control validate">
+            <label for="inputLoginEmail">Seu e-mail</label>
+          </div>
+
+          <div class="md-form mb-4">
+            <i class="fas fa-lock prefix grey-text"></i>
+            <input type="password" id="inputLoginSenha" class="form-control validate">
+            <label for="inputLoginSenha">Sua senha</label>
+          </div>
+
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button class="btn btn-indigo btn-login" >ACESSAR</button>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="options text-center">
+            <p><a href="#" class="blue-text" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterForm">Não possui cadastro?</a></p>
+            <p><a href="#" class="blue-text" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#centralModalSuccess">Esqueceu a senha?</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+<!-- Central Modal Medium Success-->
+  <div class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-notify modal-success" role="document">
+    <!--Content-->
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+        <p class="heading lead">Sucesso!</p>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" class="white-text">&times;</span>
+        </button>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body">
+        <div class="text-center">
+          <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+          <p>Aguarde alguns minutos e verifique o seu e-mail</p>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center">
+        <a type="button" class="btn btn-success" data-dismiss="modal">Ok</a>
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!-- Central Modal Medium Success-->
+  
+  <div class="modal fade modal-loader" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+    aria-hidden="true">
+    <div class="text-center">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  <!--Main layout-->
+  <main>
+    <div class="container">
+
+      
+
+      <!--Section: Main info-->
+      <section id="quemSomos" class="mt-5 wow fadeIn">
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <img src="./img/QM.jpeg" class="img-fluid z-depth-1-half"
+              alt="">
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <!-- Main heading -->
+            <h3 class="h3 mb-3">Quem Somos</h3>
+            <p>Somos uma empresa que atua no ramo de funilaria e pintura de veiculos, oferecendo sempre um
+              serviço de qualidade.</p>
+            <hr>
+            <p>Profissional capacitado com mais de 20 anos de experiência.</p>
+            <!-- Main heading -->
+
+            
+
+            <!-- CTA -->
+            <a target="_blank" href="./galeria.html" class="btn btn-grey btn-md">Serviços 
+              realizados
+              <i class="far fa-image ml-1"></i>
+            </a>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!--Section: Main info-->
+
+      <hr class="my-5">
+
+      <!--Section: Main features & Quick Start-->
+      <section>
+
+        <h3 id="servicos" class="h3 text-center mb-5">Serviços Ofertados</h3>
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <!--First row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-car fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Funilária</h5>
+                <p class="grey-text">Desde pequenos a grandes reparos, deixando o seu veículo
+                   como novo. </p>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <div style="height:30px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-fill-drip fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Pintura</h5>
+                <p class="grey-text">Atendemos veículos de qualquer cor, a pintura fica perfeita sem diferença de cor,
+                    pintamos também rodas.
+                </p>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <div style="height:30px"></div>
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-haykal fa-2x cyan-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Polimento</h5>
+                <p class="grey-text">Oferecemos o serviço de polimento, desde o simples até o polimento cristalizado
+                  , o seu veículo vai ficar lindo e sem arranhões.</p>
+              </div>
+            </div>
+            <!--/Third row-->
+
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+
+            <p class="h5 text-center mb-4">Veja uma demonstração de um de nossos serviços</p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" width="100%" height="225" src="https://www.youtube.com/embed/90ZuHSrwXsI" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Grid row-->
+
+      </section>
+      <!--Section: Main features & Quick Start-->
+
+      <hr class="my-5">
+      <section id="localizacao">
+        <h2 class="my-5 h3 text-center">Localização</h2>
+            <div class="z-depth-1-half map-container"><iframe
+                src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=rua%20narciso%20fecchio%20rosana%20sp+(Est%C3%A9ticar)&amp;ie=UTF8&amp;t=k&amp;z=15&amp;iwloc=B&amp;output=embed"
+                frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+            
+          </div>
+      </section>
+      <hr class="featurette-divider">
+
+      <!--Section: Not enough-->
+      <section id="orcamento">
+
+        <h2 class="my-5 h3 text-center">Faça já o seu orçamento</h2>
+
+        <!--First row-->
+        <!-- Material form contact -->
+        <div class="card">
+
+          <h5 class="card-header info-color white-text text-center py-4">
+              <strong>Coloque o maximo de informações possíveis</strong>
+          </h5>
+
+          <!--Card content-->
+          <div class="card-body px-lg-5 pt-0">
+
+              <!-- Form -->
+              <form class="text-center" style="color: #757575;" action="#">
+
+                  <!-- Name -->
+                  <div class="md-form mt-3">
+                      <input type="text" id="materialContactFormName" class="form-control">
+                      <label for="materialContactFormName">Nome</label>
+                  </div>
+                  <div class="md-form mt-3">
+                      <input type="text" id="materialContactFormTelefone" class="form-control">
+                      <label for="materialContactFormTelefone">Telefone</label>
+                  </div>
+                  <!-- E-mail -->
+                  <div class="md-form">
+                      <input type="email" id="materialContactFormEmail" class="form-control">
+                      <label for="materialContactFormEmail">E-mail</label>
+                  </div>
+
+                  <!-- upload -->
+                  
+                  
+                  <br><div class="container">
+                    <div class="row">
+                    <div class="col-sm-4 imgUp">
+                      <div class="imagePreview"></div>
+                        <label class="btn btn-primary">
+                            Upload<input type="file" class="uploadFile img" value="Upload Photo" style="width: 0px;height: 0px;overflow: hidden;">
+                        </label>
+                    </div><!-- col-2 -->
+                    <i class="fa fa-plus imgAdd"></i>
+                   </div><!-- row -->
+                  </div><!-- container -->
+                  <!--Message-->
+                  <div class="md-form">
+                      <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
+                      <label for="materialContactFormMessage">Descreva o estado do veículo</label>
+                  </div>
+
+                  <!-- Copy -->
+
+                  <!-- Send button -->
+                  <button data-toggle="modal" data-target="#centralModalSuccess" class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect">Enviar</button>
+
+              </form>
+              <!-- Form -->
+
+              </div>
+
+          </div>
+    <!-- Material form contact -->
+
+      </section>
+      <!--Section: Not enough-->
+
+      <hr id="contato" class="mb-5">
+
+      <!--Section: More-->
+      <section>
+
+        <h2 class="my-5 h3 text-center">Informações</h2>
+
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+
+          <!--Controls-->
+          <div class="d-flex justify-content-center" class="controls-top">
+            <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+            <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+          </div>
+          <!--/.Controls-->
+
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://media-cdn.tripadvisor.com/media/photo-s/0d/a5/9a/18/foto-aerea.jpg"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="data:image/jpeg;base64,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"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="http://static.wixstatic.com/media/a8a3b4_3396b9662f4342b99eca217760bba7b4.jpg/v1/fill/w_784,h_588,al_c,q_90,usm_0.66_1.00_0.01/a8a3b4_3396b9662f4342b99eca217760bba7b4.webp"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://media-cdn.tripadvisor.com/media/photo-s/0d/72/45/8d/getlstd-property-photo.jpg"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+            </div>
+            <!--/.First slide-->
+
+            <!--Second slide-->
+            <div class="carousel-item">
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="http://www.rosana.sp.gov.br/uploads/24112017154825.jpg"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://img.olx.com.br/images/60/601921084215517.jpg"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://www.vivapontal.com.br/wp-content/uploads/2017/05/vivapontalS0083012-Copia.jpg"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="http://www.pousadadoisrios.com.br/wp-content/uploads/2017/05/WhatsApp-Image-2017-05-03-at-11.08.21-1-640x300.jpeg"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+            </div>
+            <!--/.Second slide-->
+
+            <!--Third slide-->
+            <div class="carousel-item">
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="http://www.portalmatogrosso.com.br/storage/webdisco/2018/10/19/original/3584674599f593c543322d2eca81df00.jpg"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://media-cdn.tripadvisor.com/media/photo-s/0a/7c/e0/bd/getlstd-property-photo.jpg"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://i.ytimg.com/vi/isuN0oGwnXE/maxresdefault.jpg"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img class="img-fluid" src="https://tererecomgelo.files.wordpress.com/2014/01/dsc_0179-2-cc3b3pia.jpg"
+                    alt="Card image cap">
+                </div>
+              </div>
+
+            </div>
+            <!--/.Third slide-->
+
+          </div>
+          <!--/.Slides-->
+
+        </div>
+        <!--/.Carousel Wrapper-->
+
+      </section>
+      <!--Section: More-->
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      <p class="lead" style="font-weight: bold;">
+        <i class="fab fa-whatsapp"></i> (18) 98154-3068</p>
+      <p>© ESTETICAR,
+        cada cliente um amigo</p>
+    </div>
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <a href="https://www.facebook.com/evandrolopesnasci" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="https://twitter.com/MDBootstrap" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="https://www.youtube.com/" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+        <i class="fab fa-google-plus-g mr-3"></i>
+      </a>
+
+      <a href="https://dribbble.com/mdbootstrap" target="_blank">
+        <i class="fab fa-dribbble mr-3"></i>
+      </a>
+
+      <a href="https://pinterest.com/mdbootstrap" target="_blank">
+        <i class="fab fa-pinterest mr-3"></i>
+      </a>
+
+      <a href="https://github.com/VsN7" target="_blank">
+        <i class="fab fa-github mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="http://vitorportifolio.herokuapp.com/" target="_blank"> vitorportifolio.herokuapp.com </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+  
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Initializations -->
+  <script src="./js/script.js" ></script>
+</body>
+
+</html>

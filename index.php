@@ -1,3 +1,3 @@
 <?php
-require_once("esteticar.html");
+require_once("index.html");
 ?>
